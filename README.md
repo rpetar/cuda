@@ -1,7 +1,7 @@
-# Multiple Version of CUDA Libraries On The Same Machine
+# Multiple Versions of CUDA Libraries On The Same Machine
 
 This file contains some useful aliases and way to handle multiple CUDA versions in Arch-based distributions.
-After doing all steps from CUDA installation, reboot system. Initially, CUDA will not be set up. 
+After doing all steps from [CUDA installation](https://github.com/rpetar/cuda#cuda-installation), reboot system. Initially, CUDA will not be set up. 
 You need to set it using alias **_set-cuda-X-Y_**. 
 If you want to change version, you must first use **_unset-cuda_** alias, and then set new version.
 
