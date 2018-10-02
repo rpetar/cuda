@@ -39,7 +39,7 @@ alias gpu-temp="nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader"
 ```
 
 
->## CUDA INSTALLATION
+>## Multiple CUDA versions intallation
 
 1. Download CUDA & CUDNN from https://archive.archlinux.org/packages/c.
 2. Install CUDA & CUDNN: `pacman -U cuda-X-Y`.
