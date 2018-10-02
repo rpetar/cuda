@@ -41,11 +41,11 @@ alias gpu-temp="nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader"
 
 >## CUDA INSTALLATION
 
-1. Download CUDA & CUDNN from https://archive.archlinux.org/packages/c
-2. Install CUDA & CUDNN: `pacman -U cuda-X-Y`
-3. Rename `/opt/cuda` to `/opt/cuda-X.Y`
-4. Uninstall CUDA & CUDNN: `pacman -R cuda cudnn`
-5. Remove file /etc/profile.d/cuda.sh
-6. Rename /etc/ld.so.conf.d/cuda.conf to cuda-X.Y.conf, and change content of file to point to correct location. (same for CUDNN).  
-7. Download new vrsion of CUDA/CUDNN
+1. Download CUDA & CUDNN from https://archive.archlinux.org/packages/c.
+2. Install CUDA & CUDNN: `pacman -U cuda-X-Y`.
+3. Rename `/opt/cuda` to `/opt/cuda-X.Y`.
+4. Uninstall CUDA & CUDNN: `pacman -R cuda cudnn`.
+5. Remove file `/etc/profile.d/cuda.sh.`
+6. Rename `/etc/ld.so.conf.d/cuda.conf` to `/etc/ld.so.conf.d/cuda-X.Y.conf`, and change content of file to point to correct location. (same for CUDNN).  
+7. Download new version of CUDA/CUDNN.
 8. Jump to step 2.
