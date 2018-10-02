@@ -7,7 +7,7 @@ If you want to change version, you must first use **_unset-cuda_** alias, and th
 
 >## Edit content of `~/.bashrc`
 ```
-# some useful aliases
+# some useful aliases, not related to CUDA
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
