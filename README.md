@@ -47,7 +47,10 @@ alias gpu-temp="nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader"
 2. Install CUDA & CUDNN: `pacman -U cuda-X-Y`.
 3. Rename `/opt/cuda` to `/opt/cuda-X.Y`.
 4. Uninstall CUDA & CUDNN: `pacman -R cuda cudnn`.
+----------------
 5. Remove file `/etc/profile.d/cuda.sh.`
 6. Rename `/etc/ld.so.conf.d/cuda.conf` to `/etc/ld.so.conf.d/cuda-X.Y.conf`, and change content of file to point to correct location. (same for CUDNN).  
-7. Download new version of CUDA/CUDNN.
-8. Jump to step 2.
+
+Repeat steps 1-4 to install all versions you need. At the end, if you want to have latest version that will recieve regular updates, you can install it with `pacman -S cuda cudnn`, and pacman will update only that version.  
+After that you shoud do steps 5 and 6.
+At the end, after system reboot, you should be able to activate *X.Y* version, simply typing in terminal set-cuda-X-Y.
