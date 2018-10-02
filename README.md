@@ -5,7 +5,7 @@ After doing all steps from [CUDA installation](#cuda-installation), reboot syste
 You need to set it using alias **_set-cuda-X-Y_**. 
 If you want to change version, you must first use **_unset-cuda_** alias, and then set new version.
 
->## Edit content of /home/*user*/.bashrc
+>## Edit content of `~/.bashrc`
 ```
 # some useful aliases
 alias ll='ls -alF'
@@ -27,7 +27,7 @@ fi
 RVG_PATH=$PATH
 ```
 
->## Create if not exists or edit /home/*user*/.bash_aliases
+>## Create if not exists or edit `~/.bash_aliases`
 
 ```alias clean-path='export PATH="${RVG_PATH}"'  
 alias clear-path='export PATH="${RVG_PATH}"'  
