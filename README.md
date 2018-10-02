@@ -1,3 +1,5 @@
+# Multiple Version of CUDA Libraries On The Same Machine.
+
 This files contains some useful aliases and way to handle multiple CUDA versions in Arch-based distributions.
 After doing all steps from CUDA installation, reboot system. Initially CUDA will not be set up. 
 You need to set it using alias *_set-cuda-X-Y_*. 
@@ -39,7 +41,7 @@ alias gpu-temp="nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader"
 ```
 
 
->## Multiple CUDA versions intallation
+>## CUDA installation
 
 1. Download CUDA & CUDNN from https://archive.archlinux.org/packages/c.
 2. Install CUDA & CUDNN: `pacman -U cuda-X-Y`.
